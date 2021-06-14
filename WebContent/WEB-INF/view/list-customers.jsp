@@ -21,8 +21,10 @@
 			<div class="row">
 			<div class="col-12 col-md-10 offset-md-1">
 			<div class="card">
-			<div class="card-header shadow-lg bg-default">
-				<a class="btn btn-lg btn-success btn-round shadow-lg" onclick="window.location.href='showFormForAdd'; return false;"><i class="fas fa-user-plus"></i></a>
+			<div class="card-header shadow-lg bg-default text-center">
+				<a class="btn btn-lg btn-success btn-round btn-raised" onclick="window.location.href='showFormForAdd'; return false;"><i class="far fa-plus-square"></i></a>
+				<a class="btn btn-lg btn-success btn-round btn-raised" href="${pageContext.request.contextPath}/task/showFormForAddTask"><i class="fas fa-tasks"></i></a>
+				<a class="btn btn-lg btn-success btn-round btn-raised" href="${pageContext.request.contextPath}/user/showRegister"><i class="fas fa-user-plus"></i></a>
 			</div>
 			<div class="card-body">
 				<table class="table table-hover table-striped">

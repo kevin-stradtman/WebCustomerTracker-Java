@@ -1,7 +1,8 @@
 thead {
 	color: white !important;
 }
-
+.fas.fa-tasks,
+.far.fa-plus-square,
 .fas.fa-user-plus {
 	color: white;
 }
